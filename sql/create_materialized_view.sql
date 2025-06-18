@@ -7,4 +7,3 @@ AS
 SELECT column1,
        COUNT(*) AS total_count
 FROM example_catalog.example_schema.source_table
-GROUP BY column1;
